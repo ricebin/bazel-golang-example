@@ -1,7 +1,12 @@
 ```shell
-bazel build hello/...
+bazel build //...
 ```
 
 ```shell
-bazel run hello:hello
+bazel test //...
+```
+
+```shell
+bazel run cmd:run_hello     
+
 ```
